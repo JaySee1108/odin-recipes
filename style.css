@@ -23,7 +23,7 @@ p {
 }
 
 
-div {
+.time {
     text-align: center;
 }
 
@@ -37,15 +37,24 @@ span {
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     border-radius: 10px;
     }
+.container {
+    display: flex !important;
+    gap: 40px;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+.section{
+    flex: 1;
+    min-width: 300px;
+}
 
-ol {
+.one, .two {
     font-size: 20px;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    word-wrap: normal;
+    : 2px solid black;
 }
-ul {
-    font-size: 20px;
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-}
+
 
 a {
     display: inline-block;
@@ -59,6 +68,7 @@ a {
     border-radius: 10px;
     text-decoration: none;
     font-weight: bold;
+    margin-top: 30px;
 }
 a:hover {
     background-color: orange;
