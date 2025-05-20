@@ -5,6 +5,7 @@ img {
     display: block;
     margin: auto;
     border-radius: 50px;
+     border: 1px solid black;
 }
     
         
@@ -40,7 +41,7 @@ span {
 .container {
     display: flex !important;
     gap: 40px;
-    justify-content: space-between;
+    justify-content: center !important;
     align-items: flex-start;
 }
 .section{
@@ -52,7 +53,6 @@ span {
     font-size: 20px;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     word-wrap: normal;
-    : 2px solid black;
 }
 
 
